@@ -1,0 +1,27 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.3)
+
+2026-03-24T00:30:17.168+05:30  INFO 1083 --- [Config-Server] [           main] l.i.e.c.ConfigServerApplication          : Starting ConfigServerApplication v1.0.0 using Java 25 with PID 1083 (/mnt/c/IJSE-GDSE70/4th Semester/Enterprise Cloud Architecture/Logistic-Management-Project/platforms/config-server/target/Config-Server-1.0.0.jar started by bhagy in /mnt/c/IJSE-GDSE70/4th Semester/Enterprise Cloud Architecture/Logistic-Management-Project/platforms)
+2026-03-24T00:30:17.190+05:30  INFO 1083 --- [Config-Server] [           main] l.i.e.c.ConfigServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-24T00:30:30.764+05:30  INFO 1083 --- [Config-Server] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8bf03f67-6995-3149-85d2-1a09633eb1fe
+2026-03-24T00:30:33.510+05:30  INFO 1083 --- [Config-Server] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9000 (http)
+2026-03-24T00:30:33.697+05:30  INFO 1083 --- [Config-Server] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-24T00:30:33.698+05:30  INFO 1083 --- [Config-Server] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-24T00:30:34.220+05:30  INFO 1083 --- [Config-Server] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 16139 ms
+2026-03-24T00:30:46.436+05:30  INFO 1083 --- [Config-Server] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24T00:30:46.857+05:30  INFO 1083 --- [Config-Server] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9000 (http) with context path '/'
+2026-03-24T00:30:46.947+05:30  INFO 1083 --- [Config-Server] [           main] l.i.e.c.ConfigServerApplication          : Started ConfigServerApplication in 37.71 seconds (process running for 53.082)
+2026-03-24T00:30:48.821+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24T00:30:48.827+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-24T00:30:48.830+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-24T00:30:59.570+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-12706260210811811200/platform/service-registry.yaml]' via location 'file:/tmp/config-repo-12706260210811811200/platform/'
+2026-03-24T00:30:59.571+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-12706260210811811200/application.yaml]' via location 'file:/tmp/config-repo-12706260210811811200/'
+2026-03-24T00:31:00.859+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-12706260210811811200/platform/api-gateway.yaml]' via location 'file:/tmp/config-repo-12706260210811811200/platform/'
+2026-03-24T00:31:00.869+05:30  INFO 1083 --- [Config-Server] [nio-9000-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-12706260210811811200/application.yaml]' via location 'file:/tmp/config-repo-12706260210811811200/'
